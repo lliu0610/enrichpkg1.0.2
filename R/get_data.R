@@ -43,7 +43,7 @@
     # 下载文件
     message("Downloading data to: ", cache_file_path)
     tryCatch({
-      options(download.file.method = "wininet")
+      #options(download.file.method = "wininet")
       utils::download.file(url = data_url, destfile = cache_file_path, mode = "wb")
     }, error = function(e) {
       stop("Failed to download the data file. Please check your internet connection.", call. = FALSE)
