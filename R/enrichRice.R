@@ -17,7 +17,7 @@
 #' @importFrom clusterProfiler enricher
 #' @examples
 #' \dontrun{
-#' results<-my_enrich(gene_ID = CO2_data,
+#' results<-enrichRice(gene_ID = CO2_data,
 #'           geneset = "Top200",
 #'           ont = "ALL",
 #'           padjustMethod = "BH",
@@ -26,7 +26,7 @@
 #'           minSize = 5,
 #'           maxSize = 1000)
 #'}
-my_enrich <- function(gene_ID,
+enrichRice <- function(gene_ID,
                       geneset="Top200",
                       ont="ALL",
                       padjustMethod = "BH",

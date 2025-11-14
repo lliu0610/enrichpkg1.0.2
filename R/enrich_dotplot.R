@@ -12,7 +12,7 @@
 #'
 #' @examples
 #' \dontrun{
-#' results <- my_enrich(gene_ID = CO2_data,
+#' results <- enrichRice(gene_ID = CO2_data,
 #'                      geneset = "Top200",
 #'                      ont = "ALL",
 #'                      padjustMethod = "BH",
@@ -23,11 +23,11 @@
 #'
 #' result_shift <- transform_result_to_dotplot(result_data = results)
 #'
-#' my_dotplot(result_object=result_shift,
+#' enrich_dotplot(result_object=result_shift,
 #'            showcategory = 20,
 #'            title_name = "Custom Gene Set Enrichment Results")
 #' }
-my_dotplot <- function(result_object,
+enrich_dotplot <- function(result_object,
                        showcategory = 20,
                        title_name = "Custom Gene Set Enrichment Results"){
   p1 <- enrichplot::dotplot(result_object,showCategory=showcategory,title=title_name)

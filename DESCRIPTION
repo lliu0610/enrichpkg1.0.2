@@ -1,6 +1,6 @@
 Package: enrichpkg
 Title: A universal enrichment tool for custom gene set
-Version: 1.0.2
+Version: 1.0.3
 Authors@R: 
     person("Jiajun", "Liu", email ="2410700742@qq.com", role = c("aut", "cre","cph"))
 Description: Used for performing enrichment of custom gene sets.
