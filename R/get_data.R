@@ -14,7 +14,7 @@
 
   # 1. 定义 URL 和本地缓存路径
   # 定义URL
-  data_url <- "https://github.com/lliu0610/enrichpkg/releases/download/v1.0.2-data/enrichpkg_data.rds"
+  data_url <- "https://github.com/lliu0610/enrichpkg/releases/download/enrichRicedata_v1.0.3/enrichpkg_data.rds"
 
   # 定义本包的缓存目录
   cache_dir <- rappdirs::user_cache_dir(appname = "enrichpkg")
